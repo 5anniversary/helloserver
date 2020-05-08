@@ -1,8 +1,13 @@
-//
-//  User.swift
-//  App
-//
-//  Created by Junhyeon on 2020/05/08.
-//
+import Vapor
+import FluentMySQL
 
-import Foundation
+struct User {
+    var id: Int?
+    var name: String?
+}
+
+extension User: Content {}
+extension User: Migration {}
+extension User: MySQLModel {
+    typealias Database = MySQLDatabase
+}
