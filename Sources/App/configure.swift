@@ -19,15 +19,6 @@ public func configure(_ config: inout Config,
     // middlewares.use(FileMiddleware.self) // Serves files from `Public/` directory
     middlewares.use(ErrorMiddleware.self) // Catches errors and converts to HTTP response
     services.register(middlewares)
-
-    let port: Int
-    if let environmentPort = Environment.get("PORT") {
-        port = Int(environmentPort) ?? 8080
-    } else {
-        port = 8080
-    }
-    let nioServerConfig = NIOServerConfig.default(port: port)
-    services.register(nioServerConfig)
     
     var databases = DatabasesConfig()
     let hostname = "localhost"
