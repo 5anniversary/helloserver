@@ -20,23 +20,23 @@ public func configure(_ config: inout Config,
     middlewares.use(ErrorMiddleware.self) // Catches errors and converts to HTTP response
     services.register(middlewares)
     
-    var databases = DatabasesConfig()
-    let hostname = "localhost"
-    let username = "user1"
-    let password = "test123"
-    let databaseName = "hello"
-    let databaseConfig = MySQLDatabaseConfig(
-      hostname: hostname,
-      port: 3306,
-      username: username,
-      password: password,
-      database: databaseName)
-
-    let database = MySQLDatabase(config: databaseConfig)
-    databases.add(database: database, as: .mysql)
-    services.register(databases)
-
-    var migrations = MigrationConfig()
-    migrations.add(model: User.self, database: DatabaseIdentifier<MySQLDatabase>.mysql)
-    services.register(migrations)
+//    var databases = DatabasesConfig()
+//    let hostname = "localhost"
+//    let username = "user1"
+//    let password = "test123"
+//    let databaseName = "hello"
+//    let databaseConfig = MySQLDatabaseConfig(
+//      hostname: hostname,
+//      port: 3306,
+//      username: username,
+//      password: password,
+//      database: databaseName)
+//
+//    let database = MySQLDatabase(config: databaseConfig)
+//    databases.add(database: database, as: .mysql)
+//    services.register(databases)
+//
+//    var migrations = MigrationConfig()
+//    migrations.add(model: User.self, database: DatabaseIdentifier<MySQLDatabase>.mysql)
+//    services.register(migrations)
 }
