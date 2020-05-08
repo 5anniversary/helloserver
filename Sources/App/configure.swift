@@ -20,6 +20,15 @@ public func configure(_ config: inout Config,
     middlewares.use(ErrorMiddleware.self) // Catches errors and converts to HTTP response
     services.register(middlewares)
 
+    let port: Int
+    if let environmentPort = Environment.get("PORT") {
+        port = Int(environmentPort) ?? 9090
+    } else {
+        port = 9090
+    }
+    let nioServerConfig = NIOServerConfig.default(port: port)
+    services.register(nioServerConfig)
+    
     var databases = DatabasesConfig()
     let hostname = "localhost"
     let username = "user1"
