@@ -12,9 +12,11 @@ let package = Package(
 
         .package(url: "https://github.com/vapor/fluent-mysql-driver.git",
                  from: "3.0.0"), // git 그리고 버전
+        .package(url: "https://github.com/vapor/leaf.git", from: "3.0.0"),
+
     ],
     targets: [
-        .target(name: "App", dependencies: ["Vapor","FluentMySQL"]),
+        .target(name: "App", dependencies: ["Vapor","FluentMySQL","Leaf"]),
         .target(name: "Run", dependencies: ["App"]),
         .testTarget(name: "AppTests", dependencies: ["App"])
     ]
