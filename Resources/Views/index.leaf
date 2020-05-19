@@ -78,78 +78,52 @@
             </div>
         </div>
         
-          <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <footer class="ftco-footer ftco-bg-dark ftco-section">
             <div class="container">
-              <div class="row mb-5 pb-5 align-items-center d-flex">
-                  <div class="col-md-6">
-                      <div class="heading-section heading-section-white ftco-animate">
-                          <span class="subheading">S&N과 함께</span>
-                      <h2 style="font-size: 30px;">코드 실력을 늘려보아요!</h2>
+                <div class="row mb-5 pb-5 align-items-center d-flex">
+                    <div class="col-md-6">
+                        <div class="heading-section heading-section-white ftco-animate">
+                            <span class="subheading">S&N과 함께</span>
+                            <h2 style="font-size: 30px;">코드 실력을 늘려보아요!</h2>
+                        </div>
                     </div>
-                  </div>
-              </div>
-              <div class="row mb-5">
-                <div class="col-md">
-                  <div class="ftco-footer-widget mb-4 bg-primary p-4">
-                      <h2 class="ftco-heading-2">S.owl & NUTEE</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <ul class="ftco-footer-social list-unstyled mb-0">
-                      <li class="ftco-animate"><a href="https://github.com/7th-Sowl"><span class="icon-github"></span></a></li>
-                      <li class="ftco-animate"><a href="https://www.facebook.com/S.OWL.co/?eid=ARABY-2RoIMlEwQG6qXrkfT74YD8VcCo24xOrleaPUxWm0VqC4in4RlchPduG3qq1RalYI80guU3R2Y0"><span class="icon-facebook"></span></a></li>
-                      <li class="ftco-animate"><a href="https://www.instagram.com/5.o_wl/"><span class="icon-instagram"></span></a></li>
-                    </ul>
-                  </div>
                 </div>
-<!--                <div class="col-md">-->
-<!--                  <div class="ftco-footer-widget mb-4 ml-md-5">-->
-<!--                    <h2 class="ftco-heading-2">Unseful Links</h2>-->
-<!--                    <ul class="list-unstyled">-->
-<!--                      <li><a href="#" class="py-2 d-block">Servers</a></li>-->
-<!--                      <li><a href="#" class="py-2 d-block">Windos Hosting</a></li>-->
-<!--                      <li><a href="#" class="py-2 d-block">Cloud Hosting</a></li>-->
-<!--                      <li><a href="#" class="py-2 d-block">OS Servers</a></li>-->
-<!--                      <li><a href="#" class="py-2 d-block">Linux Servers</a></li>-->
-<!--                      <li><a href="#" class="py-2 d-block">Policy</a></li>-->
-<!--                    </ul>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--                <div class="col-md">-->
-<!--                   <div class="ftco-footer-widget mb-4">-->
-<!--                    <h2 class="ftco-heading-2">Navigational</h2>-->
-<!--                    <ul class="list-unstyled">-->
-<!--                      <li><a href="#" class="py-2 d-block">Home</a></li>-->
-<!--                      <li><a href="#" class="py-2 d-block">Domain</a></li>-->
-<!--                      <li><a href="#" class="py-2 d-block">Hosting</a></li>-->
-<!--                      <li><a href="#" class="py-2 d-block">About</a></li>-->
-<!--                      <li><a href="#" class="py-2 d-block">Blog</a></li>-->
-<!--                      <li><a href="#" class="py-2 d-block">Contact</a></li>-->
-<!--                    </ul>-->
-<!--                  </div>-->
-<!--                </div>-->
-                <div class="col-md">
-                  <div class="ftco-footer-widget mb-4">
-                      <h2 class="ftco-heading-2">Office</h2>
-                      <div class="block-23 mb-3">
-                        <ul>
-                          <li><span class="icon icon-map-marker"></span><span class="text">서울특별시, 구로구, 연동로 320, 일만관 2B201</span></li>
-                          <li><a href="#"><span class="icon icon-envelope"></span><span class="text">소울 공식 이메일</span></a></li>
-                        </ul>
-                      </div>
-                  </div>
+                <div class="row mb-5">
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-4 bg-primary p-4">
+                            <h2 class="ftco-heading-2">S.owl & NUTEE</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <ul class="ftco-footer-social list-unstyled mb-0">
+                                <li class="ftco-animate"><a href="https://github.com/7th-Sowl"><span class="icon-github"></span></a></li>
+                                <li class="ftco-animate"><a href="https://www.facebook.com/S.OWL.co/?eid=ARABY-2RoIMlEwQG6qXrkfT74YD8VcCo24xOrleaPUxWm0VqC4in4RlchPduG3qq1RalYI80guU3R2Y0"><span class="icon-facebook"></span></a></li>
+                                <li class="ftco-animate"><a href="https://www.instagram.com/5.o_wl/"><span class="icon-instagram"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-4">
+                            <h2 class="ftco-heading-2">Place</h2>
+                            <div class="block-23 mb-3">
+                                <ul>
+                                    <li><span class="icon icon-map-marker"></span><span class="text">서울특별시, 구로구, 연동로 320 성공회대학교, 일만관 2B201</span></li>
+                                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">소울 공식 이메일</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 text-center">
-
-                  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </footer>
-          
-          
+        </footer>
+        
+        
         <script src="/styles/js/jquery.min.js"></script>
         <script src="/styles/js/jquery-migrate-3.0.1.min.js"></script>
         <script src="/styles/js/popper.min.js"></script>

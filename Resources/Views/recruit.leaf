@@ -1,9 +1,195 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>S&N - 성공회대학교 IT 창업동아리</title>
-  </head>
-  <body>
-    <h1> RECRUIT </h1>
-  </body>
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                
+                <!-- Bootstrap CSS -->
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+                    
+                    <title>S&N - 성공회대학교 IT 창업동아리</title>
+                    
+                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                        
+                        <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700" rel="stylesheet">
+                            
+                            <link rel="stylesheet" href="/styles/css/open-iconic-bootstrap.min.css">
+                                <link rel="stylesheet" href="/styles/css/animate.css">
+                                    
+                                    <link rel="stylesheet" href="/styles/css/owl.carousel.min.css">
+                                        <link rel="stylesheet" href="/styles/css/owl.theme.default.min.css">
+                                            <link rel="stylesheet" href="/styles/css/magnific-popup.css">
+                                                
+                                                <link rel="stylesheet" href="/styles/css/aos.css">
+                                                    
+                                                    <link rel="stylesheet" href="/styles/css/ionicons.min.css">
+                                                        
+                                                        <link rel="stylesheet" href="/styles/css/bootstrap-datepicker.css">
+                                                            <link rel="stylesheet" href="/styles/css/jquery.timepicker.css">
+                                                                
+                                                                
+                                                                <link rel="stylesheet" href="/styles/css/flaticon.css">
+                                                                    <link rel="stylesheet" href="/styles/css/icomoon.css">
+                                                                        <link rel="stylesheet" href="/styles/css/style.css">
+                                                                            
+                                                                            </head>
+    <body>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="/">S.owl & NUTEE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="oi oi-menu"></span> Menu
+                </button>
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="activity" class="nav-link">Activity</a></li>
+                        <li class="nav-item"><a href="project" class="nav-link">Project</a></li>
+                        <li class="nav-item"><a href="recruit" class="nav-link">Recruit</a></li>
+                        <li class="nav-item cta"><a href="contact" class="nav-link"><span>Contact</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="hero-wrap hero-wrap-2" style="background-image: url('zan-0WzeC6JtbHU-unsplash.jpg');" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text align-items-end justify-content-start">
+                    <div class="col-md-8 ftco-animate text-center text-md-left mb-5">
+                        <p class="breadcrumbs mb-0"><span class="mr-3"><a href="">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Recruit</span></p>
+                        <h1 class="mb-3 bread">Recruit</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section class="ftco-section contact-section ftco-degree-bg">
+            <div class="container">
+                <div class="row block-9">
+                    <div class="col-md-10 pr-md-10">
+                        <form action="#">
+                            <div class="form-group">
+                                <p>이름을 적어주세요</p>
+                                <input type="text" class="form-control" placeholder="ex. 오준현">
+                                    </div>
+                            <div class="form-group">
+                                <p>이메일을 적어주세요</p>
+                                <input type="text" class="form-control" placeholder="ex. sowl@sowl.com">
+                                    </div>
+                            <div class="form-group">
+                                <p>휴대전화 번호를 적어주세요</p>
+                                <input type="text" class="form-control" placeholder="ex. 010-1234-5678">
+                                    </div>
+                            <div class="form-group">
+                                <p>학부를 적어주세요</p>
+                                <input type="text" class="form-control" placeholder="ex. IT융합자율학부">
+                                    </div>
+                            <div class="form-group">
+                                <p>학번을 적어주세요</p>
+                                <input type="text" class="form-control" placeholder="ex. 2020320001">
+                                    </div>
+                            <div class="form-group">
+                                <p>경험해본 프로그래밍 관련 기술을 적어주세요</p>
+                                <input type="text" class="form-control" placeholder="ex. Swift, C, iOS">
+                                    </div>
+                            <div class="form-group">
+                                <p>Github 주소가 있다면 적어주세요</p>
+                                <input type="text" class="form-control" placeholder="ex. https://github.com/s-owl">
+                                    </div>
+                            <div class="form-group">
+                                <p>동아리에 지원하게 된 계기가 무엇인가요?</p>
+                                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="ex. 동아리에 들어가 저의 열정을 불태우고 싶습니다."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <p>멋있다고 생각하는 삶의 방식을 적어주세요</p>
+                                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="ex. 언제나 도전하는 삶, 새로운것에 대해 도전하는 것은 멋있다고 생각합니다."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <p>요즘 미치도록 하고싶은 것을 적어주세요</p>
+                                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="ex. 새로 들어오게될 소울이들을 미치도록 보고싶어요!! 😄😄"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                                    </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <footer class="ftco-footer ftco-bg-dark ftco-section">
+            <div class="container">
+                <div class="row mb-5 pb-5 align-items-center d-flex">
+                    <div class="col-md-6">
+                        <div class="heading-section heading-section-white ftco-animate">
+                            <span class="subheading">S&N과 함께</span>
+                            <h2 style="font-size: 30px;">코드 실력을 늘려보아요!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-4 bg-primary p-4">
+                            <h2 class="ftco-heading-2">S.owl & NUTEE</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <ul class="ftco-footer-social list-unstyled mb-0">
+                                <li class="ftco-animate"><a href="https://github.com/7th-Sowl"><span class="icon-github"></span></a></li>
+                                <li class="ftco-animate"><a href="https://www.facebook.com/S.OWL.co/?eid=ARABY-2RoIMlEwQG6qXrkfT74YD8VcCo24xOrleaPUxWm0VqC4in4RlchPduG3qq1RalYI80guU3R2Y0"><span class="icon-facebook"></span></a></li>
+                                <li class="ftco-animate"><a href="https://www.instagram.com/5.o_wl/"><span class="icon-instagram"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-4">
+                            <h2 class="ftco-heading-2">Place</h2>
+                            <div class="block-23 mb-3">
+                                <ul>
+                                    <li><span class="icon icon-map-marker"></span><span class="text">서울특별시, 구로구, 연동로 320 성공회대학교, 일만관 2B201</span></li>
+                                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">소울 공식 이메일</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="/styles/js/jquery.min.js"></script>
+        <script src="/styles/js/jquery-migrate-3.0.1.min.js"></script>
+        <script src="/styles/js/popper.min.js"></script>
+        <script src="/styles/js/bootstrap.min.js"></script>
+        <script src="/styles/js/jquery.easing.1.3.js"></script>
+        <script src="/styles/js/jquery.waypoints.min.js"></script>
+        <script src="/styles/js/jquery.stellar.min.js"></script>
+        <script src="/styles/js/owl.carousel.min.js"></script>
+        <script src="/styles/js/jquery.magnific-popup.min.js"></script>
+        <script src="/styles/js/aos.js"></script>
+        <script src="/styles/js/jquery.animateNumber.min.js"></script>
+        <script src="/styles/js/bootstrap-datepicker.js"></script>
+        <script src="/styles/js/jquery.timepicker.min.js"></script>
+        <script src="/styles/js/scrollax.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+        <script src="/styles/js/google-map.js"></script>
+        <script src="/styles/js/main.js"></script>
+        
+    </body>
 </html>
