@@ -40,5 +40,9 @@ public func routes(_ router: Router) throws {
       let data = ["name": "junhyeon", "age": "26"]
       return try req.view().render("whoami", data)
     }
-
+    
+    try router.register(collection: UserController())
+    
 }
+
+
