@@ -8,15 +8,18 @@ let package = Package(
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
-        .package(url: "https://github.com/vapor/vapor.git", from: "3.0.0"),
-
+        .package(url: "https://github.com/vapor/vapor.git",
+                 from: "3.0.0"),
         .package(url: "https://github.com/vapor/fluent-mysql-driver.git",
                  from: "3.0.0"), // git 그리고 버전
-        .package(url: "https://github.com/vapor/leaf.git", from: "3.0.0"),
+        .package(url: "https://github.com/vapor/leaf.git",
+                 from: "3.0.0"),
+        .package(url: "https://github.com/vapor/redis.git",
+                 from: "3.0.0-rc"),
 
     ],
     targets: [
-        .target(name: "App", dependencies: ["Vapor","FluentMySQL","Leaf"]),
+        .target(name: "App", dependencies: ["Vapor","FluentMySQL","Leaf","Redis"]),
         .target(name: "Run", dependencies: ["App"]),
         .testTarget(name: "AppTests", dependencies: ["App"])
     ]

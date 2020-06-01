@@ -15,11 +15,13 @@ extension UserController {
     func getUserHandler(_ req: Request) throws -> Future<Response> {
         
         return User
-            .query(on: req)
-            .all()
-            .flatMap({ (user) in
-                return try ResponseJSON<[User]>(data: user).encode(for: req)
-            })
+               .query(on: req)
+               .all()
+               .flatMap({ (result) in
+
+                return try ResponseJSON<[User]>(data: result).encode(for: req)
+        })
+            
     }
     
     // Create

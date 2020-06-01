@@ -45,5 +45,6 @@ public func configure(_ config: inout Config,
 
     var migrations = MigrationConfig()
     migrations.add(model: User.self, database: DatabaseIdentifier<MySQLDatabase>.mysql)
+    migrations.add(model: Article.self, database: DatabaseIdentifier<MySQLDatabase>.mysql)
     services.register(migrations)
 }
